@@ -22,16 +22,11 @@
   color: #61dafb;
 }
 
-#editor {
-  overflow-wrap: break-word;
-}
-
 #secao {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
 }
 
 #preview {
@@ -40,9 +35,17 @@
 }
 
 code {
-  background-color: gainsboro;
+  background-color: white;
 }
 
 Markdown {
   text-align: left;
+}
+
+img {
+  width: 600px;
+}
+
+table td {
+  border: 1px solid black;
 }
